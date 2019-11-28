@@ -1,13 +1,15 @@
 package com.lijangop.commoncode;
 
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Toast;
 
 import com.lijangop.sdk.FileUtils;
 
-import androidx.appcompat.app.AppCompatActivity;
-
+/**
+ * 测试Project
+ */
 public class MainActivity extends AppCompatActivity {
 
     @Override

@@ -1,4 +1,4 @@
-package com.lijangop.sdk;
+package com.lijangop.sdk.utils;
 
 /**
  * @Author lijiangop
