@@ -11,9 +11,13 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="test"
         android:onClick="test"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:text="test"
         android:textColor="#000000"
-        android:textSize="25sp"/>
+        android:textSize="17sp"/>
 
 </LinearLayout>

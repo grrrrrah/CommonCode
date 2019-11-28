@@ -2,6 +2,9 @@ package com.lijangop.commoncode;
 
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Toast;
+
+import com.lijangop.sdk.FileUtils;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -14,6 +17,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void test(View view) {
-        
+        Toast.makeText(this, FileUtils.getName(), Toast.LENGTH_SHORT).show();
     }
 }
