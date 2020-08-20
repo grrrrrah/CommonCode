@@ -51,4 +51,24 @@
         <attr name="color_unchecked" format="color"/>
         <attr name="color_unchecked_stroke" format="color"/>
     </declare-styleable>
+
+    <declare-styleable name="RCAttrs">
+        <attr name="round_as_circle" format="boolean"/>
+        <attr name="clip_background" format="boolean"/>
+
+        <attr name="stroke_color" format="color"/>
+
+        <attr name="stroke_width" format="dimension"/>
+        <attr name="round_corner" format="dimension"/>
+        <attr name="round_corner_top_left" format="dimension"/>
+        <attr name="round_corner_top_right" format="dimension"/>
+        <attr name="round_corner_bottom_left" format="dimension"/>
+        <attr name="round_corner_bottom_right" format="dimension"/>
+
+    </declare-styleable>
+
+    <declare-styleable name="NoPaddingTextView">
+        <attr name="removeDefaultPadding" format="boolean"/>
+    </declare-styleable>
+
 </resources>

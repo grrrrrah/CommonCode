@@ -3,9 +3,8 @@ package com.lijangop.commoncode;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.Toast;
 
-import com.lijangop.sdk.FileUtils;
+import com.lijangop.sdk.utils.MarketUtils;
 
 /**
  * 测试Project
@@ -19,6 +18,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void test(View view) {
-        Toast.makeText(this, FileUtils.getName(), Toast.LENGTH_SHORT).show();
+        MarketUtils.goToMarket(this,getPackageName());
     }
 }
