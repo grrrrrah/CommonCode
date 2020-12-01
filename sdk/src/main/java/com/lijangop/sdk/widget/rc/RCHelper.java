@@ -41,7 +41,7 @@ public class RCHelper {
     public void initAttrs(Context context, AttributeSet attrs) {
         TypedArray ta = context.obtainStyledAttributes(attrs, R.styleable.RCAttrs);
         mRoundAsCircle = ta.getBoolean(R.styleable.RCAttrs_round_as_circle, false);
-        mStrokeColorStateList = ta.getColorStateList(R.styleable.RCAttrs_stroke_color);
+        mStrokeColorStateList = ta.getColorStateList(R.styleable.RCAttrs_rc_stroke_color);
         if (null != mStrokeColorStateList) {
             mStrokeColor = mStrokeColorStateList.getDefaultColor();
             mDefaultStrokeColor = mStrokeColorStateList.getDefaultColor();
@@ -49,7 +49,7 @@ public class RCHelper {
             mStrokeColor = Color.WHITE;
             mDefaultStrokeColor = Color.WHITE;
         }
-        mStrokeWidth = ta.getDimensionPixelSize(R.styleable.RCAttrs_stroke_width, 0);
+        mStrokeWidth = ta.getDimensionPixelSize(R.styleable.RCAttrs_rc_stroke_width, 0);
         mClipBackground = ta.getBoolean(R.styleable.RCAttrs_clip_background, false);
         int roundCorner = ta.getDimensionPixelSize(R.styleable.RCAttrs_round_corner, 0);
         int roundCornerTopLeft = ta.getDimensionPixelSize(

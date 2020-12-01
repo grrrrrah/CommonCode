@@ -56,9 +56,9 @@
         <attr name="round_as_circle" format="boolean"/>
         <attr name="clip_background" format="boolean"/>
 
-        <attr name="stroke_color" format="color"/>
+        <attr name="rc_stroke_color" format="color"/>
 
-        <attr name="stroke_width" format="dimension"/>
+        <attr name="rc_stroke_width" format="dimension"/>
         <attr name="round_corner" format="dimension"/>
         <attr name="round_corner_top_left" format="dimension"/>
         <attr name="round_corner_top_right" format="dimension"/>
@@ -70,5 +70,41 @@
     <declare-styleable name="NoPaddingTextView">
         <attr name="removeDefaultPadding" format="boolean"/>
     </declare-styleable>
+
+    <declare-styleable name="PorterImageView">
+        <attr name="siShape" format="integer|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="ShineButton">
+        <attr name="btn_color" format="color" />
+        <attr name="btn_fill_color" format="color" />
+        <attr name="shine_count" format="integer" />
+        <attr name="shine_turn_angle" format="float" />
+        <attr name="small_shine_offset_angle" format="float" />
+        <attr name="enable_flashing" format="boolean" />
+        <attr name="allow_random_color" format="boolean" />
+        <attr name="small_shine_color" format="color" />
+        <attr name="big_shine_color" format="color" />
+        <attr name="shine_animation_duration" format="integer" />
+        <attr name="click_animation_duration" format="integer" />
+        <attr name="shine_distance_multiple" format="float" />
+        <attr name="shine_size" format="dimension" />
+    </declare-styleable>
+
+    <!--仿微信字体大小调整 FontSizeView-->
+    <declare-styleable name="FontSizeView">
+        <attr name="lineWidth" format="dimension|reference" />
+        <attr name="lineColor" format="color|reference" />
+        <attr name="totalCount" format="integer" />
+        <attr name="circleColor" format="color|reference" />
+        <attr name="circleRadius" format="dimension|reference" />
+
+        <attr name="textFontColor" format="color|reference" />
+        <attr name="smallSize" format="integer" />
+        <attr name="standerSize" format="integer" />
+        <attr name="bigSize" format="integer" />
+        <attr name="defaultPosition" format="integer" />
+    </declare-styleable>
+
 
 </resources>
